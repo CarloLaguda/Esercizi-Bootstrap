@@ -7,11 +7,140 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <h1 class="fs-1 text-center mt-2">Esercizio 4.1</h1>
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-1 col-lg-2 col-0 bg-dark"></div>
-            <div class="col-lg-8 col-md-10 col-12"></div>
+            <div class="col-lg-8 col-md-10 col-12">
+                <!--Badge-->
+                <h1 class="fs-1 text-center mt-2">Esercizio 4.1</h1>
+                <h1>BADGE<span class="badge bg-secondary">Ciao</span></h1>
+                <button type="button" class="btn btn-primary mt-5">
+                    Tasti sulla tastiera<span class="badge bg-secondary">88</span>
+                </button>
+                <!--Pagination-->
+                <nav aria-label="Page navigation example mt-5">
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                            <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Hello</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Bye-Bye-Bye</a></li>
+                    </ul>
+                </nav>
+                <!--List Group chackbox-->
+                <ul class="list-group mt-5">
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                        First checkbox
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                        Second checkbox
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                        Third checkbox
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                        Fourth checkbox
+                    </li>
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                        Fifth checkbox
+                    </li>
+                </ul>
+                <!--Cards-->
+                <div class="row row-cols-1 row-cols-md-3 g-4 mt-5 mb-4">
+                    <div class="col">
+                        <div class="card h-100">
+                        <img src="..\BTS_3\Immaginine\download.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">ALDO</h5>
+                                <p class="card-text">Aldo Pio Manuzio è stato un editore, grammatico e umanista italiano. È ritenuto tra i maggiori editori di ogni tempo, oltre che uno dei primi editori in senso moderno in Europa. Introdusse il carattere a stampa corsivo e il formato in ottavo.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 6 febbraio 1515</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                        <img src="..\BTS_3\Immaginine\download.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">ALDO</h5>
+                                <p class="card-text">Aldo Pio Manuzio è stato un editore, grammatico e umanista italiano. È ritenuto tra i maggiori editori di ogni tempo, oltre che uno dei primi editori in senso moderno in Europa. Introdusse il carattere a stampa corsivo e il formato in ottavo.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 6 febbraio 1515</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                        <img src="..\BTS_3\Immaginine\download.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">ALDO</h5>
+                                <p class="card-text">Aldo Pio Manuzio è stato un editore, grammatico e umanista italiano. È ritenuto tra i maggiori editori di ogni tempo, oltre che uno dei primi editori in senso moderno in Europa. Introdusse il carattere a stampa corsivo e il formato in ottavo.</p>
+                            </div>
+                            <div class="card-footer">
+                                <small class="text-muted">Last updated 6 febbraio 1515</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Collapse-->
+                <p>
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Primo</a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Secondo</button>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Tutti</button>
+                </p>
+                <div class="row">
+                    <div class="col">
+                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+                            <div class="card card-body">
+                                In un mondo dove le nuvole parlano e i computer coltivano il grano, gli elefanti scrivono poesie per i semafori muti.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="collapse multi-collapse" id="multiCollapseExample2">
+                            <div class="card card-body">
+                                Il pesce indossa un cappello mentre balla il tango sulla luna.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--NavBar-->
+                <nav class="navbar navbar-expand-lg navbar-light bg-light mb-5">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Navbar</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="#">Rice</a></li>
+                                <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Ciao</a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Domani</a></li>
+                                    <li><a class="dropdown-item" href="#">Mangio le</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li><a class="dropdown-item" href="#">Rape</a></li>
+                                </ul>
+                                </li><li class="nav-item"><a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Nice</a></li>
+                            </ul>
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
             <div class="col-md-1 col-lg-2 col-0 bg-dark"></div>
         </div>
     </div>
