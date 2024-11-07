@@ -74,6 +74,11 @@ function updateImages(selector, width) {// Aggiornamento delle immagini
         img.classList.toggle('w-100', width >= 768);
     });
 }
+window.onload = function() {
+    var audio = document.getElementById("audio");
+    audio.play();
+    audio.volume = 0.1; // Riproduce il suono quando la pagina è caricata
+};
 window.addEventListener('resize', updateMargin);// Event listeners per resize e caricamento
 document.addEventListener('DOMContentLoaded', updateMargin);
 const btn_invia = document.getElementById("btn-send");// Gestione di EmailJS
