@@ -18,9 +18,7 @@ function updateMargin() {// Funzione per aggiornare margini e stili in base alla
 }
 function updateCarouselClasses(carousel, width) {// Aggiornamento delle classi del carosello
     carousel.classList.remove('mt-5', 'mtp2', 'mt-1');
-    if (width < 768){
-        carousel.classList.add('mt-1');
-    } else if (width < 992){
+    if (width < 992){
         carousel.classList.add('mt-5');
     }else{
         carousel.classList.add('mtp2');
@@ -28,11 +26,11 @@ function updateCarouselClasses(carousel, width) {// Aggiornamento delle classi d
 }
 function updateStoriaClasses(storia, width) {// Aggiornamento delle classi di Storia
     if (width < 768) {
-        storia.classList.add('mt-5');
+        storia.classList.add('mtp2');
         storia.classList.remove('mtp');
     } else {
         storia.classList.add('mtp');
-        storia.classList.remove('mt-5');
+        storia.classList.remove('mtp2');
     }
 }
 function updateNavbarClasses(navbar, width) {// Aggiornamento della Navbar
