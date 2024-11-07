@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE LAST OF US</title>
+    <link rel="stylesheet" href="bootstrap.css"><!--Bootstrap personalizzato-->
+    <link rel="preconnect" href="https://fonts.googleapis.com"><!--Google font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Work+Sans:wght@100..900&display=swap" rel="stylesheet"><!--Google font-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!--Google font-->
+    <link rel="icon" type="image/x-icon" href="Img\Favicon.webp"><!--Favicon-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"><!--CDN Bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"><!--Icone Bootstrap-->
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-white sticky-top mt-3 py-3 d-none d-md-flex" id="navbar"> <!--NavBar Stick top-->
+        <div class="container">
+            <a class="fs-6 text-body px-md-2 px-lg-3 d-none d-md-inline" href="#Storia">Storia</a>
+            <a class="fs-6 text-body px-md-2 px-lg-3 d-none d-md-inline" href="#Personaggi">Personaggi</a>
+            <a class="fs-6 text-body px-md-2 px-lg-3 d-none d-md-inline" href="#SerieTV">SerieTV</a>
+            <a class="fs-6 text-body px-md-2 px-lg-3 d-none d-md-inline" href="#Acquista">Acquista</a>
+            <a class="fs-6 text-body px-md-2 px-lg-3 d-none d-md-inline" href="#Info">Info</a>     
+        </div>
+    </nav>  
+    <div class="container-fluid text-light">
+        <div class="row"><!--Prima riga-->
+            <div class="col-2 col-md-1 bg-primario"><!--Burger Menu-->
+                <div class="d-flex justify-content-center align-items-start my-1 mx-2">
+                    <div class="btn btn-group dropdown d-md-none"> 
+                        <i class="bi bi-list text-light display-4 bg-primario text-light" data-bs-toggle="dropdown" aria-expanded="false"></i>
+                        <ul class="dropdown-menu">
+                            <li><a class="px-3 text-body" href="#Storia">Storia</a></li>
+                            <li><a class="px-3 text-body" href="#Personaggi">Personaggi</a></li>
+                            <li><a class="px-3 text-body" href="#SerieTV">Serie-TV</a></li>
+                            <li><a class="px-3 text-body" href="#Acquista">Acquista</a></li>
+                            <li><a class="px-3 text-body" href="#Info">Info</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>              
+            <div class="col-8 col-md-10 bg-primario"><!--Titolo-->
+                <div class="text-center mt-2 mt-md-3 mt-lg-4"> 
+                    <h1 class="display-3 mb-2 d-lg-none">THE LAST OF US</h1>
+                    <h1 class="display-2 mb-2 d-none d-lg-block">THE LAST OF US</h1>
+                </div>
+                <div id="carosello" class="carousel slide mtp2 pt-5" data-bs-ride="carousel" > <!--mt-p claase creata da me--> <!--Carosello senza bottoni-->
+                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="Img/TLOU1.avif" class="d-block mx-auto w-100 rounded-lg" alt="The Last of Us Part 1">
+                                <div class="carousel-caption d-none d-md-block"></div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Img/TLOUS2.avif" class="d-block mx-auto w-100 rounded-lg" alt="The Last of Us Part 2">
+                                <div class="carousel-caption d-none d-md-block"></div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Img\TvSeries.webp" class="d-block mx-auto w-100 rounded-lg" alt="The last of us Tv Series">
+                                <div class="carousel-caption d-none d-md-block"></div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="Img\leftBehind.jpg" class="d-block mx-auto w-100 rounded-lg" alt="Left Behind">
+                                <div class="carousel-caption d-none d-md-block"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="Storia">
+                    <!--Breve intro storia-->
+                    <div class="px-md-5 px-3 text-center text-sm-start w-100">
+                        <h2 class="display-6">The Last Of Us Parte 1</h2>
+                        <p class="fs-5 mt-2">In un mondo devastato dal Cordyceps, mettiti nei panni di Joel Miller.<br>Intraprendi un viaggio pieno di sfide con la giovane Ellie Williams, <br> l'ultima speranza per l'umanità. Riusciranno a fronteggiare <br> le minacce esterne e i fantasmi del passato, scoprendo <br> il vero significato della <b>sopravvivenza</b>?</p>
+                    </div>
+                    <div class="px-md-5 px-3 text-center text-sm-end w-100 mb-5">
+                        <h2 class="display-6 mtp2" id="storiaPT2">The Last Of Us Parte 2</h2>
+                        <p class="fs-5 mt-2">Torna a metterti nei panni di Ellie, intenta a intraprendere <br> un viaggio di vendetta, dolore e dure scelte nei confronti di Abby. <br> Affronta un mondo ostile dove ogni decisione avrà conseguenze. <br> Riuscirà Ellie a riconciliarsi con il suo passato e a scoprire <br> il vero significato della <b>vendetta</b>?</p>
+                    </div>
+                </div>                                          
+            </div>
+            <div class="col-2 col-md-1 bg-primario"><!--Logo Fireflies-->
+                <div class="mt-4">
+                    <img src="Img/Fireflieslogo_white.webp" class="img-fluid pt-2 d-none d-xl-block w-100" alt="Logo Fireflies">
+                </div> 
+            </div>
+        </div>
+        <div class="row"><!--Seconda Riga-->
+            <div class="col-2 col-md-1 bg-secondario"></div>
+            <div class="col-8 col-md-10 bg-secondario">
+                <div class="mtp2">
+                    <div class="text-center">
+                        <h1 class="display-5 mtp2 mb-5">Scopri i principali personaggi della saga</h1>
+                        <div class="mt-5 mb-5">
+                            <div class="btn-group rounded-pill bg-light px-auto py-2" id="Personaggi" role="group">
+                                <!-- Bottoni per le parti dei personaggi -->
+                                <button class="fs-6 fs-md-5 btn-dark text-light btn rounded-pill px-0 mx-1 mx-md-2" id="btnCardParte1" data-bs-toggle="collapse" href="#CardTLOU1" aria-expanded="false" aria-controls="CardTLOU1">Personaggi Parte 1</button>
+                                <button class="fs-6 fs-md-5 btn-light text-body btn rounded-pill px-0 mx-1 mx-md-2" id="btnCardParte2" data-bs-toggle="collapse" href="#CardTLOU2" aria-expanded="false" aria-controls="CardTLOU2">Personaggi Parte 2</button>
+                                <button class="fs-6 fs-md-5 btn-light text-body btn rounded-pill px-0 mx-1 mx-md-2" id="btnCardInfetti" data-bs-toggle="collapse" href="#CardInfetti" aria-expanded="false" aria-controls="CardInfetti">Infetti</button>
+                            </div>
+                        </div>                      
+                    </div>
+                    <div class="collapse show" id="CardTLOU1">
+                        <h2 class="text-center display-6">Personaggi Parte 1</h2><!--Card Parte 1-->
+                        <div class="row mb-5 row-cols-1 row-cols-md-3 g-4 mt-5">
+                            <div class="col">
+                                <div class="card h-100 border-0 mt-3">
+                                    <div class="bg-secondario">
+                                        <img src="Img\joeljpg.jpg" class="d-block mx-auto w-100 rounded-lg h-100" alt="JOEL">
+                                    </div>
+                                    <div class="card-body bg-secondario">
+                                        <p class="fs-4 card-title text-center mt-3">JOEL</p>
+                                    </div>
+                                    <div class="bg-secondario d-flex justify-content-center align-items-center">
+                                        <button class="btn btn-light rounded-pill px-4 mb-5" data-bs-toggle="modal" data-bs-target="#moreInfoModalJoel">Maggiori info</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="moreInfoModalJoel" tabindex="-1" aria-labelledby="moreInfoModalLabel" aria-hidden="true"><!--Div modale Joel-->
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content bg-dark text-light">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="moreInfoModalLabel">Storia del Personaggio</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Joel è un contrabbandiere senza scrupoli che opera sul mercato nero. Indipendente e ingegnoso, è stato segnato da una tragica perdita. Durante il suo viaggio, troverà la forza di diventare una figura paterna e di combattere per un futuro migliore, per sé stesso e per Ellie. Cinque anni dopo, Joel si è stabilito a Jackson, Wyoming, insieme a suo fratello Tommy, la moglie di Tommy, Maria, e naturalmente Ellie. Nonostante non rimpianga le scelte di cinque anni prima, presto dovrà confrontarsi con le conseguenze delle sue azioni.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Chiudi</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 border-0 mt-3">
+                                    <div class="bg-secondario">
+                                        <img src="Img\ellie.webp" class="d-block mx-auto w-100 rounded-lg" alt="ELLIE">
+                                    </div>
+                                    <div class="card-body bg-secondario">
+                                        <p class="fs-4 card-title text-center mt-2 h-100">ELLIE</p>
+                                    </div>
+                                    <div class="bg-secondario d-flex justify-content-center align-items-center">
+                                        <button class="btn btn-light rounded-pill px-4 mb-5" data-bs-toggle="modal" data-bs-target="#moreInfoModalEllie">Maggiori info</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="moreInfoModalEllie" tabindex="-1" aria-labelledby="moreInfoModalLabel" aria-hidden="true"><!--Div modale Ellie-->
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content bg-dark text-light">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="moreInfoModalLabel">Storia del Personaggio</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>La prima volta che la incontriamo, Ellie è una ragazza di 14 anni che non ha mai avuto esperienza del mondo "normale", antecedente il 2013. Per questo, Joel non diventa solo la sua guida per il viaggio, ma un punto di riferimento nella sua progressiva scoperta del mondo. Ellie è sveglia e piena di risorse. Il suo ingegno e la sua scaltrezza si rivelano preziosi in qualsiasi situazione, si tratti di raccontare una barzelletta o di superare dei nemici.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Chiudi</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 border-0 mt-3">
+                                    <div class="bg-secondario">
+                                        <img src="Img\Marlene.png" class="d-block mx-auto w-100 rounded-lg h-100" alt="MARLENE">
+                                    </div>
+                                    <div class="card-body bg-secondario">
+                                        <p class="fs-4 card-title text-center mt-2">MARLENE</p>
+                                    </div>
+                                    <div class="bg-secondario d-flex justify-content-center align-items-center">
+                                        <button class="btn btn-light rounded-pill px-4 mb-5" data-bs-toggle="modal" data-bs-target="#moreInfoMarlene">Maggiori info</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="moreInfoMarlene" tabindex="-1" aria-labelledby="moreInfoModalLabel" aria-hidden="true"><!--Div modale Marlene-->
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content bg-dark text-light">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="moreInfoModalLabel">Storia del Personaggio</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Fervida sostenitrice delle Luci, Marlene ha combattuto in prima linea per rovesciare il giogo autoritario dei militari nelle zone di quarantena. Nonostante il suo passato tra i ribelli, ha conservato un atteggiamento gentile e compassionevole. La sua esperienza medica ha alimentato la sua volontà di salvare l'umanità. Un valore che continua a perseguire a ogni costo.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Chiudi</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collapse" id="CardTLOU2">
+                        <h2 class="text-center display-6">Personaggi Parte 2</h2><!--Card parte 2-->
+                        <div class="row mb-5 row-cols-1 row-cols-md-3 g-4 mt-5">
+                            <div class="col">
+                                <div class="card h-100 border-0 mt-3">
+                                    <div class="bg-secondario">
+                                        <img src="Img\Dina-1.webp" class="d-block mx-auto w-100 rounded-lg h-100" alt="DINA">
+                                    </div>
+                                    <div class="card-body bg-secondario">
+                                        <p class="fs-4 card-title text-center mt-2">DINA</p>
+                                    </div>
+                                    <div class="bg-secondario d-flex justify-content-center align-items-center">
+                                        <button class="btn btn-light rounded-pill px-4 mb-5" data-bs-toggle="modal" data-bs-target="#moreInfoDina">Maggiori info</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="moreInfoDina" tabindex="-1" aria-labelledby="moreInfoModalLabel" aria-hidden="true"><!--Div modale Dina-->
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content bg-dark text-light">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="moreInfoModalLabel">Storia del Personaggio</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Determinata e ottimista, Dina è la migliore amica e confidente di Ellie. Come Ellie, è rimasta orfana in giovanissima età. Questo l'ha costretta a diventare presto indipendente, imparando a sopravvivere da sola. La sua guida morale e la sua natura schietta fanno emergere il lato migliore di Ellie.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Chiudi</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 border-0 mt-3">
+                                    <div class="bg-secondario">
+                                        <img src="Img\ellie2.jpg" class="d-block mx-auto w-100 rounded-lg h-100 " alt="ELLIE">
+                                    </div>
+                                    <div class="card-body bg-secondario">
+                                        <p class="fs-4 card-title text-center mt-2">ELLIE</p>
+                                    </div>
+                                    <div class="bg-secondario d-flex justify-content-center align-items-center">
+                                        <button class="btn btn-light rounded-pill px-4 mb-5" data-bs-toggle="modal" data-bs-target="#moreInfoEllie2">Maggiori info</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="moreInfoEllie2" tabindex="-1" aria-labelledby="moreInfoModalLabel" aria-hidden="true"><!--Div modale Ellie Parte 2-->
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content bg-dark text-light">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="moreInfoModalLabel">Storia del Personaggio</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Cinque anni dopo, ritroviamo Ellie in The Last of Us Parte II. La ragazza è molto cresciuta, diventando ancora più forte, schietta e sicura di sé. Ma quando un traumatico evento sconvolge lei e il resto della comunità, la sua priorità sarà quella di ottenere vendetta. Sebbene ora sia più matura, dovrà confrontarsi non solo con infetti e criminali, ma sopportare anche il fardello emotivo delle sue azioni.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Chiudi</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col bg-secondario">
+                                <div class="card h-100 border-0 mt-3">
+                                    <div class="bg-secondario">
+                                        <img src="Img\abby.jpg" class="d-block mx-auto w-100 rounded-lg h-100" alt="ABBY">
+                                    </div>
+                                    <div class="card-body bg-secondario">
+                                        <p class="fs-4 card-title text-center mt-2">ABBY</p>
+                                    </div>
+                                    <div class="bg-secondario d-flex justify-content-center align-items-center">
+                                        <button class="btn btn-light rounded-pill px-4 mb-5" data-bs-toggle="modal" data-bs-target="#moreInfoAbby">Maggiori info</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal fade" id="moreInfoAbby" tabindex="-1" aria-labelledby="moreInfoModalLabel" aria-hidden="true"><!--Div modale Abby-->
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content bg-dark text-light">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="moreInfoModalLabel">Storia del Personaggio</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Quando conosciamo Abby in The Last of Us Parte II, lei è una dei leader del WLF. Nonostante la sua reputazione di combattente, dietro il suo atteggiamento stoico si nascondono molte debolezze. In passato, lei e il padre facevano parte delle Luci, fino a quando non rimase sola a causa di un tragico incidente. Ora deve riaffermare la sua identità, cercando di trovare uno scopo dietro la brama di giustizia che muove le sue azioni.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Chiudi</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="collapse" id="CardInfetti"><!--Card Parte Infetti-->
+                        <h2 class="text-center display-6">Infetti</h2>
+                        <div class="row mb-5 row-cols-1 row-cols-md-3 g-4 mt-3">
+                            <div class="col">
+                                <div class="card h-100 border-0 mt-3">
+                                    <div class="bg-secondario">
+                                        <img src="Img\runner.webp" class="d-block mx-auto w-100 rounded-lg h-100" alt="RUNNER">
+                                    </div>
+                                    <div class="card-body bg-secondario">
+                                        <p class="fs-4 card-title text-center mt-2">RUNNER</p>
+                                    </div>
+                                    <div class="bg-secondario d-flex justify-content-center align-items-center">
+                                        <button class="btn btn-light rounded-pill px-4 mb-5" data-bs-toggle="modal" data-bs-target="#moreInfoRunner">Maggiori info</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="moreInfoRunner" tabindex="-1" aria-labelledby="moreInfoModalLabel" aria-hidden="true"><!--Div modale Runner-->
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content bg-dark text-light">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="moreInfoModalLabel">Storia dell'infetto</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Primo stadio dell'infezione.<br><br>I Runner sono gli infetti più veloci. Nonostante siano molto meno resistenti degli infetti di stadio avanzato, hanno la tendenza ad attaccare in orde, fattore per il quale risultano estremamente pericolosi. Sono caratterizzati dalla presenza di circoscritte crescite di spore fungine e dalla perdita di sangue dagli orifizi corporei.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Chiudi</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 border-0 mt-3">
+                                    <div class="bg-secondario">
+                                        <img src="Img\stalker.webp" class="d-block mx-auto w-100 rounded-lg h-100" alt="STALKER">
+                                    </div>
+                                    <div class="card-body bg-secondario">
+                                        <p class="fs-4 card-title text-center mt-2">STALKER</p>
+                                    </div>
+                                    <div class="bg-secondario d-flex justify-content-center align-items-center">
+                                        <button class="btn btn-light rounded-pill px-4 mb-5" data-bs-toggle="modal" data-bs-target="#moreInfoStalkerr">Maggiori info</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="moreInfoStalkerr" tabindex="-1" aria-labelledby="moreInfoModalLabel" aria-hidden="true"><!--Div modale Stalker-->
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content bg-dark text-light">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="moreInfoModalLabel">Storia dell'infetto</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Secondo stadio dell'infezione.<br><br>In un periodo tra due settimane e un anno, i Runner raggiungono il secondo stadio dell'infezione, diventando Stalker. Gli Stalker agiscono perlopiù da soli, nascondendosi nell'oscurità per sorprendere la loro preda.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Chiudi</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 border-0 mt-3">
+                                    <div class="bg-secondario">
+                                        <img src="Img\clicker.png" class="d-block mx-auto w-100 rounded-lg h-100" alt="JOEL">
+                                    </div>
+                                    <div class="card-body bg-secondario">
+                                        <p class="fs-4 card-title text-center mt-2">CLICKER</p>
+                                    </div>
+                                    <div class="bg-secondario d-flex justify-content-center align-items-center">
+                                        <button class="btn btn-light rounded-pill px-4 mb-5" data-bs-toggle="modal" data-bs-target="#moreInfoClicker">Maggiori info</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="moreInfoClicker" tabindex="-1" aria-labelledby="moreInfoModalLabel" aria-hidden="true"><!--Div modale Clicker-->
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content bg-dark text-light">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="moreInfoModalLabel">Storia dell'infetto</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Terzo stadio dell'infezione.<br><br>A un anno circa dall'infezione, gli individui assumono la forma dei cosiddetti Clicker. A questo punto, la crescita fungina ha completamente ricoperto il loro corpo, rendendoli ciechi. Per ovviare a questo deficit, i Clicker usano l'ecolocalizzazione per muoversi e individuare la preda. La potenza muscolare che sviluppano, inoltre, li trasforma in vere e proprie macchine da guerra nel corpo a corpo.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Chiudi</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 border-0 mt-3">
+                                    <div class="bg-secondario">
+                                        <img src="Img\BloaterUff.jpg" class="d-block mx-auto w-100 rounded-lg h-100" alt="ELLIE">
+                                    </div>
+                                    <div class="card-body bg-secondario">
+                                        <p class="fs-4 card-title text-center mt-2">BLOATER</p>
+                                    </div>
+                                    <div class="bg-secondario d-flex justify-content-center align-items-center">
+                                        <button class="btn btn-light rounded-pill px-4 mb-5" data-bs-toggle="modal" data-bs-target="#moreInfoBloater">Maggiori info</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="moreInfoBloater" tabindex="-1" aria-labelledby="moreInfoModalLabel" aria-hidden="true"><!--Div modale Bloater-->
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content bg-dark text-light">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="moreInfoModalLabel">Storia dell'infetto</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Quarto stadio dell'infezione (clima asciutto).<br><br>Quando un infetto si evolve nella forma del Bloater, la sua percezione è ulteriormente compromessa e la sua velocità si riduce. Il parassita instilla nell'ospite una forza straordinaria, mentre la crescita organica ricopre il corpo come una corazza, che il Bloater può aprire per scagliare le spore come proiettili.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Chiudi</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 border-0 mt-3">
+                                    <div class="bg-secondario">
+                                        <img src="Img\shambler.webp" class="d-block mx-auto w-100 rounded-lg h-100" alt="JOEL">
+                                    </div>
+                                    <div class="card-body bg-secondario">
+                                        <p class="fs-4 card-title text-center mt-2">SHAMBLER</p>
+                                    </div>
+                                    <div class="bg-secondario d-flex justify-content-center align-items-center">
+                                        <button class="btn btn-light rounded-pill px-4 mb-5" data-bs-toggle="modal" data-bs-target="#moreInfoShambler">Maggiori info</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="moreInfoShambler" tabindex="-1" aria-labelledby="moreInfoModalLabel" aria-hidden="true"><!--Div modale Shambler-->
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content bg-dark text-light">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="moreInfoModalLabel">Storia dell'infetto</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Quarto stadio alternativo dell'infezione (clima umido).<br><br>Di dimensioni ridotte rispetto ai Bloater, gli Shambler sono ugualmente terrificanti. Nonostante l'andatura caracollante, sono in grado di effettuare improvvisi scatti per catturare la loro preda. Se minacciati, o comunque prima di morire, emettono una nube di spore tossiche.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Chiudi</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100 border-0 mt-3">
+                                    <div class="bg-secondario">
+                                        <img src="Img\ratking.jpg" class="d-block mx-auto w-100 rounded-lg h-100" alt="MARLENE">
+                                    </div>
+                                    <div class="card-body bg-secondario">
+                                        <p class="fs-4 card-title text-center mt-2">RAT-KING</p>
+                                    </div>
+                                    <div class="bg-secondario d-flex justify-content-center align-items-center">
+                                        <button class="btn btn-light rounded-pill px-4 mb-5" data-bs-toggle="modal" data-bs-target="#moreInfoRat-King">Maggiori info</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal fade" id="moreInfoRat-King" tabindex="-1" aria-labelledby="moreInfoModalLabel" aria-hidden="true"><!--Div modale Rat-King-->
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content bg-dark text-light">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="moreInfoModalLabel">Storia dell'infetto</h5>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Stadio avanzato unico dell'infezione.<br><br>Il Re dei ratti è la forma più potente di infetto, composta da numerosi individui avviluppati intorno a una matrice fungina di Cordyceps. Questa creatura emette spore, anche sotto forma di virulenti proiettili, e può caricare la sua preda.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Chiudi</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                   
+                </div>
+                <div class="mb-5 text-center" id="SerieTV"><!--Trailer-->
+                    <h2 class="display-6 mtp">Guarda La Serie Tv</h2>
+                    <div class="mt-5 pb-5">
+                        <iframe id="Video" class="mx-auto d-none d-md-block" width="560" height="315" src="https://www.youtube.com/embed/uLtkt8BonwM?si=_iz5p1FooyF6vcUc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <p class="fs-5 text-light d-md-none">Ecco il <a class="text-light" target="blank_a" href="https://www.youtube.com/watch?v=uLtkt8BonwM">link</a> al trailer della serie</p>
+                    </div>
+                    <p class="fs-5 pb-3 mt-2">Guarda <a class="text-light fw-bold" target="blank_a" href="https://www.nowtv.it/the-last-of-us">Qui</a> la nuovissima serie di The Last Of Us realizzata da HBO con <br> Pedro Pascal nei panni di Joel e Bella Ramsey che interpreta Ellie. <br>Gotidi Gotiti The Last Of Us anche sul divano e con un cesto di POP-CORN!</p>
+                </div>
+            </div>            
+            <div class="col-2 col-md-1 bg-secondario"></div>
+        </div>
+        <div class="row"><!--Terza Riga-->
+            <div class="col-2 col-md-1 bg-terziario"></div>
+            <div class="col-8 col-md-10 bg-terziario">
+                <div class="mtp2" id="Acquista"><!--Sezione acquista-->
+                    <h2 class="text-center  mb-1 display-6">Acquista La tua copia di The Last of Us!</h2>
+                    <div class="mx-auto row w-100 mb-5" id="CardAcquista">
+                        <div class="col-sm-6">
+                            <div class="card mt-5">
+                                <div class="card-body text-light bg-primario">
+                                    <h5 class="card-title h5">THE LAST OF US PARTE 1</h5>
+                                    <p class="card-text">Vivi l'intensa avventura della prima parte di The Last Of Us.</p>
+                                    <p class="mt-4">Seleziona la versione del gioco che vuoi acquistare</p>
+                                </div>
+                                <a class="btn btn-light my-auto" target="blank_a" href="https://store.playstation.com/it-ch/product/EP9000-PPSA07642_00-THELASTOFUSPART1">Compra ora</a><!--Il link porta alla pagina ufficilae playstaion-->
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card mt-5">
+                                <div class="card-body text-light bg-primario">
+                                    <h5 class="card-title h5">THE LAST OF US PARTE 2</h5>
+                                    <p class="card-text">Scopri di The Last Of Us Parte 2 e non sarai più come prima</p>
+                                    <p class="mt-4">Seleziona la versione del gioco che vuoi acquistare</p>
+                                </div>
+                                <a class="btn btn-light my-auto" target="blank_a" href="https://store.playstation.com/it-ch/product/EP9000-PPSA15508_00-THELASTOFUSPART2">Compra ora</a><!--Il link porta alla pagina ufficilae playstaion-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mtp" id="Info"><!--Mail per chiedere informazioni-->
+                    <h2 class="display-6 text-center pt-5">Non esitare a contattarci!</h2>
+                    <div class="mt-5 mb-3">
+                        <div class="mb-3 w-75 w-md-50 mx-auto">
+                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="contact" placeholder="nome@esempio.com">
+                        </div>
+                        <div class="mb-3 w-75 w-md-50 mx-auto mt-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Informazioni sul prodotto" ></textarea>
+                            <button class="btn btn-light mt-3 mb-5" id ="btn-send">Invia</button>
+                        </div>
+                    </div>
+                </div>
+                <p class="h6 text-center text-light mb-4">&copy; Powered By Carlo Laguda</p>
+            </div>
+            <div class="col-2 col-md-1 bg-terziario"></div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script><!--Scrpit emailjs-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script><!--script bootstrap-->
+    <script src="script.js"></script><!--Script sito-->
+</body>
+</html>
